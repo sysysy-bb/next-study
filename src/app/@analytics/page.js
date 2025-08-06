@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div>about</div>
+    <div className='analytics'>@analytics</div>
+
   )
 }

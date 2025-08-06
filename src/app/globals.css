@@ -34,6 +34,62 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    color: rgb(0, 195, 255);
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .inner{
+    display: flex;
+    gap:12px;
+
+  }
+}
+.analytics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width:300px;
+  border-radius: 10px;
+  background-color: rosybrown;
+}
+.team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width:300px;
+  border-radius: 10px;
+  background-color: green;
+}
+.children{
+   height: 100px;
+  width:600px;
+  border-radius: 10px;
+  background-color: grey;
+}
+.visitor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width:300px;
+  border-radius: 10px;
+  background-color: pink;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
